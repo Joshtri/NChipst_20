@@ -1,10 +1,11 @@
 const express = require('express');
-const {mainPageView, homeView } = require('../controllers/homeController');
+const {homePageView} =  require('../controllers/homeController');
+
 
 const router = express.Router();
 
 
-router.get('/', mainPageView);  
-router.get('/home', homeView);
+router.get('/', homePageView);
+
 
 module.exports = router;

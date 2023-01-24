@@ -8,20 +8,44 @@
 </head>
 <body>
     <%- include('layout') %> 
-
-
-
-        <div class="col-sm-5 pe-md-7 py-3">
-            <h1 style="font-family:'Barlow'; font-weight: bold;"><span class="fade-in-4s">Selamat Datang</span></h1>
-            <p style="font-family:Barlow;" class="fade-in-7s">di <b>Chipset</b> Officially Website</p>
-            <p style="font-family:Barlow;" class="text-justify">Website ini berisikan hasil karya kami 
-                dari angkatan CHIPSET seperti game,blog, dan juga 
-                penerapan algoritma pada suatu kasus    </p>
-
-            <button class="btn btn-bluedarks text-white" style="font-family:'Barlow';">Masuk ke Beranda</button>
-        </div>
-
-            
  
+    <div class="container me-5">
+        <div class="row mt-xl-5 me-3">
+            <div class="col-lg-5">
+                <img src="/img/chipset_logo_blue.png" class="img-fluid" alt>
+            </div>        
+                <div class="col-md-6">
+                    <div class="h-100 d-flex justify-content-center flex-column">
+
+                        
+                        <h1 style="font-family:'Barlow'; font-weight: bold;"><span class="fade-in-4s">Selamat Datang</span></h1>
+                        <p style="font-family:Barlow;" class="fade-in-7s">di <b>Chipset</b> Officially Website</p>
+                        <p style="font-family:Barlow;" class="text-justify">Website ini berisikan hasil karya kami 
+                            dari angkatan CHIPSET seperti game,blog, dan juga 
+                            penerapan algoritma pada suatu kasus.</p>
+
+                            <div>
+                                <a href="/home"  class="text-decoration-none text-white"><button class="btn btn-bluedarks text-white" style="font-family:'Barlow';">
+                                    Masuk ke Beranda
+                                </button></a>
+                            </div>
+                    </div>      
+                </div>
+        </div>
+    </div>
+
+    <hr style="width: 50%;" class="mx-auto">
+
+    <div class="container">
+      <div class="row mt-3">
+
+      </div>
+    </div>
+
+
+    <%- include('footer.ejs'); %>
+
+    
+
 </body>
 </html>
